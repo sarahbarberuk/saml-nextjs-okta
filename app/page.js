@@ -28,7 +28,21 @@ export default function Home() {
       ) : (
         <>
           <p>You're not logged in.</p>
-          <a href="http://localhost:4000/login">Login with SAML</a>
+          <a
+            href="http://localhost:4000/login"
+            style={{
+              display: "inline-block",
+              padding: "0.6rem 1.2rem",
+              backgroundColor: "#0070f3",
+              color: "#fff",
+              borderRadius: "4px",
+              textDecoration: "none",
+              fontWeight: "bold",
+              marginTop: "1rem",
+            }}
+          >
+            Login with SAML
+          </a>
         </>
       )}
     </main>
