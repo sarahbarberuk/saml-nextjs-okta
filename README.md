@@ -28,10 +28,12 @@ The rest of the Next.js project provides the frontend of the app, forwarding log
 
 Add the following lines:
 
+```
 OKTA_ENTRY_POINT=<OKTA_ENTRY_POINT>
 OKTA_ISSUER=nextjs-saml-app
 OKTA_CERT=<OKTA_CERT>
 SAML_CALLBACK_URL=http://localhost:4000/login/callback
+```
 
 You need to add the OKTA_ENTRY_POINT and OKTA_CERT. You will find the values for these in Okta...
 
@@ -42,7 +44,7 @@ You need to add the OKTA_ENTRY_POINT and OKTA_CERT. You will find the values for
 
 3. Install any NPM dependencies:
 
-npm install express passport passport-saml express-session dotenv
+`npm install express passport passport-saml express-session dotenv`
 
 ## To run the code:
 
